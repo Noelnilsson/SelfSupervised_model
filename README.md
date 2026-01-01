@@ -16,8 +16,9 @@ The model underwent a two-stage training process:
 1. **Self-Supervised Pre-training:** Learning feature representations.
 2. **Fine-tuning:** Training a classifier on top of the frozen encoder.
 
-The final model achieved a **Validation Accuracy of approx. 80.1%** on the CIFAR-10 test set.
+The final model achieved a **Validation Accuracy of approx. 80.1% with 5% labeled data and 92% with 100% labeled data** on the CIFAR-10 test set.
 
 ## Project Structure
 - `Umeå_project_ssl.ipynb`: Jupyter Notebook containing the full implementation, from data preprocessing to model evaluation.
 - `Deep_learning_report.pdf`: Comprehensive report detailing the theoretical background, experiments, and results.
+
